@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+
+        }
+        
+        body{
+            background-color:burlywood;
+            color:antiquewhite;
+        }
+        nav{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            height:30px;
+            background-color: rgb(3, 3, 58);
+            width: auto;
+
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin:0 53px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: azure;
+        } 
+        nav ul li a:hover{
+            
+            color:coral;
+            font-size: 1.2rem;
+        } 
+        .left{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+            
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 90px 0;
+            
+        }
+        .firstsection >div{
+         width: 30%;
+        }
+        .rightsection img{
+            width: 80%;
+            
+
+        }
+        .leftsection{
+
+            font-size:20px;
+            color:rgb(45, 52, 52);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin:30px;
+            text-align: left;
+        }
+        .leftsection pre{
+            font-family:'Times New Roman', Times, serif ;
+            font-size: 30px;
+        }
+        .blue{
+            color:rgb(113, 17, 36);
+        }  
+        .secondsection{
+         max-width:100vw ;
+         margin:auto ;
+         color:rgb(48, 48, 75);
+         height:80vh ;
+         padding:0px 15px;
+        }
+        .secondsection h1{
+            font-size: 30px;
+        }
+        .secondsection .box{
+            background: black;
+            width: 80vw;
+            height:2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: brown;
+            margin:0 140px ;
+
+        }
+        main hr{
+            border:0;
+            background-color:beige;
+            height: 1.1px;
+            margin:30px 94px; 
+        
+        }
+        .imagetop{
+            width: 90px;
+            position: relative;
+            top:-62px;
+            left:-40px;
+
+        }
+        .imagetope{
+            width: 45px;
+            position: relative;
+            top:-62px;
+            left:-40px;
+           
+        }
+        .imagetopy{
+            width: 60px;
+            position: relative;
+            top:-62px;
+            left:-40px;
+        }
+        .imagetopz{
+            width: 97px;
+            position: relative;
+            top:-62px;
+            left:-40px;
+        }
+        .vertical-title{
+            position:relative;
+            top: 50px;
+            width: 150px;
+            font-size: 30px;
+            
+        
+
+        }
+        .vertical-desc{
+            position: relative;
+            color:rgb(25, 74, 74);
+            width: 270px;
+            top: 86px;
+            font-size: 18px;
+            
+            
+            
+ 
+        }
+        .Resume ul{
+            text-align: center;
+        }
+        
+        .Resume ul a{
+            justify-content: center;
+            color:rgb(27, 47, 47);
+            font-size:35px;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        
+        .Resume pre{
+            color:midnightblue;
+            font-size:30px;
+            font-family:'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        .Resume ul pre{
+            font-size:30px;
+            text-align: center;
+            color: rgb(2, 20, 54);
+        }
+        footer {
+  color:black;
+  
+  text-align: center;
+  padding: 10px;
+}
+  .aboutme{
+    
+    color:black;
+    font-family: "Roboto Slab", serif;
+    font-size: 25px;
+    text-align: justify;
+    padding:0px 20px;
+  }
+            
+        
+        
+        
+         
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">ANIRUDDHA'S PORTFOLIO</div>
+            <div class="right">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>  
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+               <pre> Hi there, I'm <span class="blue">Aniruddha Saraf</span> 
+your friendly neighborhood web developer!
+I'm here to make your online presence shine with 
+sleek designs and seamless functionality. 
+Let's build something amazing together</pre> 
+                
+            </div>
+            <div class="rightsection">
+
+                <img src="dev.png.png" alt style=>
+                
+            </div>
+            </section>
+            <hr>
+            <section class="secondsection">
+                <h1>Skills</h1>
+                <div class="box">
+                    <div class="vertical">
+                        <img class="imagetop" src="html.png" alt="">
+                        <div class="vertical-title">
+                            HTML Devloper
+                        </div>
+                        <div class="vertical-desc">
+                            Proficient in HTML, adept at crafting clean and semantic code structures for dynamic web development
+                        </div>
+
+                    </div>
+                    <div class="vertical">
+                        <img class="imagetope" src="css2.png" alt="">
+                        <div class="vertical-title">
+                            CSS
+                        </div>
+                        <div class="vertical-desc">
+                            Skilled in CSS, adept at designing visually appealing and responsive user interfaces through comprehensive style implementations.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="imagetopy" src="python.png" alt="">
+                        <div class="vertical-title">
+                            Python 
+                        </div>
+                        <div class="vertical-desc">
+                            Experienced in Python, proficient in leveraging its versatile capabilities to develop efficient and scalable solutions across various domains
+                        </div>
+                    </div> 
+                    <div class="vertical">
+                       <img class="imagetopz" src="JavaScript_logo_PNG1.png" alt="">
+                        <div class="vertical-title">
+                            Java Script
+                        </div>
+                        <div class="vertical-desc">
+                            Fluent in JavaScript, adept at harnessing its power to create dynamic and interactive web applications with elegant functionality and user experiences
+                        </div>
+                    </div>              
+                 </div>
+            </section>
+            <section class="aboutme">
+                
+                    <h1 align="center"> About me </h1>
+                <p>
+                    Hey there, I'm Aniruddha Saraf, 
+                    and I'm all about bringing ideas to life in the digital world.
+                    With a knack for communication and anchoring, I thrive on connecting with
+                    people and captivating audiences.
+                    But my passion doesn't stop there - I'm also deeply immersed in the realm of web development.
+                    From crafting clean HTML and CSS code to diving into the depths of Python programming,
+                    I'm committed to building seamless online experiences that leave a lasting impression.
+                    Let's collaborate and turn your visions into captivating digital realities!
+                    </p>
+                    
+            
+                <br>
+            </section>
+            <section class="Resume">
+                 <ul>
+                    <li><a href="file:///D:/projects/pro.html">projects</a>
+                    </li>
+             <li><a href="file:///D:/portfolio/resume.html">Resume</a></li>
+                <li><a href="#">email:aniruddhasaraf2004@gmail.com</a></li>
+                <li><a href="#">address=Amravati,Maharastra</a></li>
+                </ul>
+                <br>
+                <br>
+                
+             </ul>
+             <br>
+             <pre>If you're curious about my projects and would like to explore my resume further,
+                feel free to click on the icons .
+                Alternatively, if you wish to get in touch directly, 
+                please don't hesitate to reach out to me via email at   (aniruddhasaraf2004@gmail.com).
+            I look forward to connecting with you and sharing more about my work and experiences.</pre>
+            <br>
+            
+            
+           </section>
+           <footer>
+            <p>© aniruddha saraf. All rights reserved.</p>
+            
+          </footer>
+
+                </div>
+
+         </main>
+    
+</body>
+</html>
